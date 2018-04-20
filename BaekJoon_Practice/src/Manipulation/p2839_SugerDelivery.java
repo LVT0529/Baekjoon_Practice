@@ -14,6 +14,20 @@ public class p2839_SugerDelivery {
 		if(total_k % 5 == 0) { 
 			System.out.println(total_k/5);
 		}
+<<<<<<< HEAD
+=======
+		else if(total_k % 5 != 0 && total_k % 3 != 0)
+		{
+			count = total_k/5;
+			total_k %= 5;
+			if(total_k % 3 == 0)
+				count += total_k/3;
+			else
+				count = -1;
+			
+			System.out.println(count);
+		}
+>>>>>>> 3868863b24975ed19898e22b90c40e0594a44815
 		else
 		{
 			temp = total_k;
